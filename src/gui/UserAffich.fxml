@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.UserAffichController">
+    <children>
+      <Label fx:id="nom" layoutX="197.0" layoutY="123.0" text="nom" />
+      <Label layoutX="124.0" layoutY="150.0" text="prenom:" />
+      <Label layoutX="124.0" layoutY="123.0" text="nom:" />
+      <Label fx:id="prenom" layoutX="195.0" layoutY="150.0" text="Label" />
+      <Label layoutX="124.0" layoutY="183.0" text="Email:" />
+      <Label layoutX="124.0" layoutY="97.0" text="id:" />
+      <ImageView fx:id="image" fitHeight="150.0" fitWidth="200.0" layoutX="386.0" layoutY="75.0" pickOnBounds="true" preserveRatio="true" />
+      <Label fx:id="id" layoutX="195.0" layoutY="97.0" text="Label" />
+      <Label fx:id="email" layoutX="195.0" layoutY="183.0" text="Label" />
+      <Label layoutX="108.0" layoutY="33.0" text="Affichage User">
+         <font>
+            <Font size="25.0" />
+         </font></Label>
+      <Label layoutX="123.0" layoutY="210.0" text="Role:" />
+      <Label fx:id="role" layoutX="195.0" layoutY="210.0" text="Label" />
+      <Label layoutX="123.0" layoutY="239.0" text="birth:" />
+      <Label fx:id="birth" layoutX="195.0" layoutY="239.0" text="Label" />
+   </children>
+</AnchorPane>
